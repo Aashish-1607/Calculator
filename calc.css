@@ -1,0 +1,68 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.row1
+{
+	background-color:gold;
+	width:26%;
+	padding:15px 0px;
+	margin-top:30px;
+	margin-left:20px;
+	
+}
+form
+{
+	margin-left:30px;
+	
+		
+}
+.ans
+{
+	width:95%;
+	
+	padding:25px 10px;
+    margin-top:15px;
+    margin-bottom:10px;
+	background-color:blue;
+	color:white;
+	font-size:30px;
+	text-align:right;
+	
+}
+.row2
+{
+	background-color:#696969;
+	width:26%;
+	padding:15px 0px;
+	margin-left:20px;	
+}
+.c1
+{
+	color:blue;
+	height:65px;
+	width:65px;
+}
+.row2 .c1 :hover 
+{
+	background-color:blue;
+}
+.canc
+{
+	color:blue;
+	height:65px;
+	width:65px;
+}
+.canc1
+{
+	color:red;
+	height:65px;
+	width:65px;
+}
+
+.container
+{
+	width:80%;
+	margin:0px auto;
+}

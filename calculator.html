@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+<body>
+
+<div class="calc">	
+	<form name="calculator">
+	  <div class="row1">
+	   <div class="container">	
+		<input class="ans" type="text" name="answer"/><br>
+		</div>	
+	  </div>
+	  <div class="row2">
+	    <div class="container">	
+		<input class="c1" type="button" value=" 1 " onclick="calculator.answer.value += '1' " >
+		<input class="c1" type="button" value=" 2 " onclick="calculator.answer.value += '2' ">
+		<input class="c1" type="button" value=" 3 " onclick="calculator.answer.value += '3' ">
+		<input class="canc" type="button" value=" + " onclick="calculator.answer.value += '+' ">
+	    
+		<br>
+		
+		<input class="c1" type="button" value=" 4 " onclick="calculator.answer.value += '4' ">
+		<input class="c1" type="button" value=" 5 " onclick="calculator.answer.value += '5' ">
+		<input class="c1" type="button" value=" 6 " onclick="calculator.answer.value += '6' ">
+		<input class="canc" type="button" value=" - " onclick="calculator.answer.value += '-' ">
+	
+		<br>
+		<input class="c1" type="button" value=" 7 " onclick="calculator.answer.value += '7' ">
+		<input class="c1" type="button" value=" 8 " onclick="calculator.answer.value += '8' ">
+		<input class="c1" type="button" value=" 9 " onclick="calculator.answer.value += '9' ">
+		<input class="canc" type="button" value=" X " onclick="calculator.answer.value += '*' ">
+		
+		<br>
+		
+		<input class="canc1" type="button" value=" C " onclick="calculator.answer.value = '' ">
+		<input class="c1" type="button" value=" 0 " onclick="calculator.answer.value += '0' ">
+		<input class="canc" type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)">
+		<input class="canc" type="button" value=" / " onclick="calculator.answer.value += '/' ">
+	  </div>
+	  
+     </div>	  
+  </form>
+</div>
+</body>
+</html>
